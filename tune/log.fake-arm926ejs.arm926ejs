@@ -2,6 +2,6 @@ ERROR:  OE-core's config sanity checker detected a potential misconfiguration.
     Either fix the cause of this error or at your own risk disable the checker (see sanity.conf).
     Following is the list of potential problems / advisories:
 
-    Error, the PACKAGE_ARCHS variable does not contain TUNE_PKGARCH (arm926ejse).
+    Error, the PACKAGE_ARCHS variable (all any noarch arm armv4 armv4t armv5 armv5t armv5e armv5te arm926ejste fake_arm926ejs) for DEFAULTTUNE (arm926ejs) does not contain TUNE_PKGARCH (arm926ejse).
 
 Summary: There was 1 ERROR message shown, returning a non-zero exit code.
